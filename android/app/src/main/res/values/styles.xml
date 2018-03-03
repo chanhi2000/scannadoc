@@ -1,0 +1,25 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppBaseTheme" parent="Theme.AppCompat.NoActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="AppBaseTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+
+	<style name="AppBaseTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+		<item name="android:textColorPrimary">#FEFEFE</item>
+		<item name="android:textColorSecondary">#aeaeae</item>
+	</style>
+
+	<style name="AppBaseTheme.NavigationView" parent="Widget.Design.NavigationView">
+		<item name="android:fitsSystemWindows">true</item>
+	</style>
+
+</resources>
